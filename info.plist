@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>net.ponnekanti.flowmodoro</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>094BBA15-3009-4CE0-93BA-82755E427A64</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0A315B1F-5F79-40B6-BDB1-6C9FFAEA7BE0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1335F253-944E-43BC-9343-4679AA29DD78</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1335F253-944E-43BC-9343-4679AA29DD78</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>094BBA15-3009-4CE0-93BA-82755E427A64</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>6A4DF081-65B6-47CC-A1B0-E729EDB23B95</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>99EEE620-33D7-4430-881B-25290DFEB81F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>ADB0C78D-4EF7-4D15-89F1-C97E2E331FE6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>85D0C464-8CFB-4591-BACE-D03E1DD60B68</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4B549024-D309-4379-9C70-6F9D77B319C7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2CAFC58E-915C-4D27-AE95-D550BCCD544D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BAA01715-707A-4191-B0A5-815800B68178</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FCDF837D-12F1-4B6F-B5AB-1EAA30E9EE69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ADB0C78D-4EF7-4D15-89F1-C97E2E331FE6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BAA01715-707A-4191-B0A5-815800B68178</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF9AC1A7-7A9D-423A-8D37-933499FC2FC9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>483AA098-3734-4EEC-91B6-99DFBBD0697E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0110632C-C5D1-444F-BE34-181BAB092D2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A6B4AB41-A088-43FE-8BD9-B9BA3B9B6248</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F178BD50-B11B-4CCC-B488-890D3177FA05</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A315B1F-5F79-40B6-BDB1-6C9FFAEA7BE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F731D72A-6784-4C90-9982-253BD7F42313</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27A7D394-200C-4B6D-9C26-33164BEE2086</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FCDF837D-12F1-4B6F-B5AB-1EAA30E9EE69</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F731D72A-6784-4C90-9982-253BD7F42313</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Manav Ponnekanti</string>
+	<key>description</key>
+	<string>Count-up focus timer with autocalculated breaks</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Flowmodoro</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>mkdir -p "$alfred_workflow_data"
+date +%s &gt; "$alfred_workflow_data/start_timestamp"
+
+printf 'start'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>094BBA15-3009-4CE0-93BA-82755E427A64</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>timestamp_file="$alfred_workflow_data/start_timestamp"
+
+if [[ ! -f "$timestamp_file" ]]; then
+  printf 'No active Flowmodoro session' &gt;&amp;2
+  exit 1
+fi
+
+start_timestamp=$(&lt;"$timestamp_file")
+current_timestamp=$(date +%s)
+
+if [[ ! "$start_timestamp" =~ '^[0-9]+$' ]]; then
+  printf 'Invalid start timestamp' &gt;&amp;2
+  exit 1
+fi
+
+elapsed_seconds=$((current_timestamp - start_timestamp))
+
+rm "$timestamp_file"
+
+printf '%d' "$elapsed_seconds"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Session started</string>
+				<key>title</key>
+				<string>Flowmodoro</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CF9AC1A7-7A9D-423A-8D37-933499FC2FC9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>start</string>
+						<key>outputlabel</key>
+						<string>Start</string>
+						<key>uid</key>
+						<string>6A4DF081-65B6-47CC-A1B0-E729EDB23B95</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>break</string>
+						<key>outputlabel</key>
+						<string>Break</string>
+						<key>uid</key>
+						<string>99EEE620-33D7-4430-881B-25290DFEB81F</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>toggle</string>
+						<key>outputlabel</key>
+						<string>Toggle</string>
+						<key>uid</key>
+						<string>85D0C464-8CFB-4591-BACE-D03E1DD60B68</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>change</string>
+						<key>outputlabel</key>
+						<string>Change</string>
+						<key>uid</key>
+						<string>4B549024-D309-4379-9C70-6F9D77B319C7</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>1335F253-944E-43BC-9343-4679AA29DD78</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F178BD50-B11B-4CCC-B488-890D3177FA05</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>{var:flow}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>ObjC.import("Foundation")
+
+function run(argv) {
+  const query = argv.join(" ").trim()
+  const environment = $.NSProcessInfo.processInfo.environment
+  const dataDirectory = environment.objectForKey("alfred_workflow_data").js
+  const timestampFile = `${dataDirectory}/start_timestamp`
+  const fileManager = $.NSFileManager.defaultManager
+
+  let startTimestamp = 0
+
+  if (fileManager.fileExistsAtPath(timestampFile)) {
+    try {
+      const contents = $.NSString
+        .stringWithContentsOfFileEncodingError(
+          timestampFile,
+          $.NSUTF8StringEncoding,
+          null
+        )
+        .js
+        .trim()
+
+      startTimestamp = Number(contents)
+    } catch (error) {
+      startTimestamp = 0
+    }
+  }
+
+  const sessionActive =
+    Number.isFinite(startTimestamp) &amp;&amp;
+    startTimestamp &gt; 0
+
+  const items = []
+
+  // Only show the timer for plain "fl".
+  if (sessionActive &amp;&amp; query === "") {
+    const now = Math.floor(Date.now() / 1000)
+    const elapsed = Math.max(0, now - startTimestamp)
+
+    items.push({
+      uid: "flowmodoro-timer",
+      title: `Flowing · ${formatDuration(elapsed)}`,
+      valid: false
+    })
+  }
+
+  if (sessionActive) {
+    items.push({
+      uid: "flowmodoro-break",
+      title: "End focus session",
+      match: "break end stop finish",
+      arg: "break"
+    })
+  } else {
+    items.push({
+      uid: "flowmodoro-start",
+      title: "Start focus session",
+      match: "start begin focus",
+      arg: "start"
+    })
+  }
+
+  items.push(
+    {
+      uid: "flowmodoro-toggle",
+      title: "Toggle background sounds",
+      match: "toggle bs background sounds",
+      arg: "toggle",
+      icon: {
+        path: "note.png"
+      }
+    },
+    {
+      uid: "flowmodoro-change",
+      title: "Change background sounds",
+      match: "change choose background sounds",
+      arg: "change",
+      icon: {
+        path: "note.png"
+      }
+    }
+  )
+
+  const output = { 
+    skipknowledge: true,
+	items 
+  }
+
+  // Update the visible timer every second.
+  if (sessionActive &amp;&amp; query === "") {
+    output.rerun = 1
+  }
+
+  return JSON.stringify(output)
+}
+
+function formatDuration(totalSeconds) {
+  const hours = Math.floor(totalSeconds / 3600)
+  const minutes = Math.floor((totalSeconds % 3600) / 60)
+  const seconds = totalSeconds % 60
+
+  if (hours &gt; 0) {
+    return [
+      hours,
+      String(minutes).padStart(2, "0"),
+      String(seconds).padStart(2, "0")
+    ].join(":")
+  }
+
+  return [
+    String(minutes).padStart(2, "0"),
+    String(seconds).padStart(2, "0")
+  ].join(":")
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Flowmodoro</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0A315B1F-5F79-40B6-BDB1-6C9FFAEA7BE0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>bs</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>ADB0C78D-4EF7-4D15-89F1-C97E2E331FE6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputmode</key>
+				<integer>0</integer>
+				<key>outputmode</key>
+				<integer>1</integer>
+				<key>shortcut</key>
+				<string>Flowmodoro</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.runshortcut</string>
+			<key>uid</key>
+			<string>BAA01715-707A-4191-B0A5-815800B68178</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>start</string>
+						<key>outputlabel</key>
+						<string>Start</string>
+						<key>uid</key>
+						<string>483AA098-3734-4EEC-91B6-99DFBBD0697E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>break</string>
+						<key>outputlabel</key>
+						<string>Break</string>
+						<key>uid</key>
+						<string>A6B4AB41-A088-43FE-8BD9-B9BA3B9B6248</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Breaktime 🎉️</string>
+				<key>title</key>
+				<string>Flowmodoro</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0110632C-C5D1-444F-BE34-181BAB092D2A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_shortcut</key>
+					<string>Flowmodoro</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/shortcuts/shortcut.installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>FCDF837D-12F1-4B6F-B5AB-1EAA30E9EE69</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Install Shortcut</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>A Shorcut is required to perform this action.</string>
+				<key>title</key>
+				<string>Shortcut Not Installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>27A7D394-200C-4B6D-9C26-33164BEE2086</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Missing Shortcut</string>
+						<key>uid</key>
+						<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F731D72A-6784-4C90-9982-253BD7F42313</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Flowmodoro
+
+A flow-based productivity timer which counts up instead of down, but still gives you breaks with the Pomodoro ratio (work time divided by 5). Automatically toggles Do Not Disturb on/off, logs work blocks to a calendar of your choice, and has the ability to toggle and change MacOS Background Sounds.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0110632C-C5D1-444F-BE34-181BAB092D2A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1295</real>
+			<key>ypos</key>
+			<real>450</real>
+		</dict>
+		<key>094BBA15-3009-4CE0-93BA-82755E427A64</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>95</real>
+		</dict>
+		<key>0A315B1F-5F79-40B6-BDB1-6C9FFAEA7BE0</key>
+		<dict>
+			<key>xpos</key>
+			<real>230</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>1335F253-944E-43BC-9343-4679AA29DD78</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>27A7D394-200C-4B6D-9C26-33164BEE2086</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>1250</real>
+			<key>ypos</key>
+			<real>610</real>
+		</dict>
+		<key>2CAFC58E-915C-4D27-AE95-D550BCCD544D</key>
+		<dict>
+			<key>xpos</key>
+			<real>860</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>ADB0C78D-4EF7-4D15-89F1-C97E2E331FE6</key>
+		<dict>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>375</real>
+		</dict>
+		<key>BAA01715-707A-4191-B0A5-815800B68178</key>
+		<dict>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>CF9AC1A7-7A9D-423A-8D37-933499FC2FC9</key>
+		<dict>
+			<key>xpos</key>
+			<real>1295</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>420</real>
+		</dict>
+		<key>F178BD50-B11B-4CCC-B488-890D3177FA05</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>F731D72A-6784-4C90-9982-253BD7F42313</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>1180</real>
+			<key>ypos</key>
+			<real>620</real>
+		</dict>
+		<key>FCDF837D-12F1-4B6F-B5AB-1EAA30E9EE69</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>590</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>fl</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The keyword you use to invoke Flowmodoro.</string>
+			<key>label</key>
+			<string>Invoke Flowmodoro</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>flow</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>2026.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
