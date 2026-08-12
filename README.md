@@ -3,7 +3,9 @@
 A flow-based productivity timer which counts up instead of down and lets you take appropriately timed breaks as-needed. Automatically toggles Do Not Disturb on/off, logs work blocks to a calendar of your choice, and has the ability to toggle and change MacOS Background Sounds.
 
 ## Setup
-Download and open the `.alfredworkflow` file from [latest releases](https://github.com/manavponnekanti/alfred-flowmodoro/releases/). When setting up the workflow for the first time, you can specify the trigger keyword, your work/break ratio, and the name of the calendar (assuming you have one set up in Calendar.app) that you wish to sync your work blocks to.
+Download and open the latest [release](https://github.com/manavponnekanti/alfred-flowmodoro/releases/). Clicking on the `.alfredworkflow` file should open it in Alfred directly.
+
+When setting up the workflow for the first time, you can specify the trigger keyword, your work/break ratio, and the name of the calendar (assuming you have one set up in Calendar.app) that you wish to sync your work blocks to.
 
 If you don't want to sync your work blocks to Calendar, just leave that variable empty. If you put in the name of a calendar that doesn't exist, events will just save to your default calendar.
 
