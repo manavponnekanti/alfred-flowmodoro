@@ -1,0 +1,11 @@
+# Personal workflow configuration
+prefs.plist
+
+# macOS
+.DS_Store
+
+# Runtime/test files, if ever created locally
+start_timestamp
+
+# Exported release artifacts
+*.alfredworkflow

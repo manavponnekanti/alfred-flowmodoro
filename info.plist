@@ -50,7 +50,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</string>
+				<string>7B86BA60-43AB-4E09-93F0-B37E9C418316</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -85,6 +85,21 @@
 				<false/>
 			</dict>
 		</array>
+		<key>27A7D394-200C-4B6D-9C26-33164BEE2086</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>389E3E38-AA4B-431E-A680-36C5E67BFDB9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2CAFC58E-915C-4D27-AE95-D550BCCD544D</key>
 		<array>
 			<dict>
@@ -108,6 +123,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7B86BA60-43AB-4E09-93F0-B37E9C418316</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>ADB0C78D-4EF7-4D15-89F1-C97E2E331FE6</key>
 		<array>
 			<dict>
@@ -122,58 +150,7 @@
 			</dict>
 		</array>
 		<key>BAA01715-707A-4191-B0A5-815800B68178</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>2CAFC58E-915C-4D27-AE95-D550BCCD544D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CF9AC1A7-7A9D-423A-8D37-933499FC2FC9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>483AA098-3734-4EEC-91B6-99DFBBD0697E</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>0110632C-C5D1-444F-BE34-181BAB092D2A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>A6B4AB41-A088-43FE-8BD9-B9BA3B9B6248</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>F178BD50-B11B-4CCC-B488-890D3177FA05</key>
 		<array>
 			<dict>
@@ -277,9 +254,28 @@ fi
 
 elapsed_seconds=$((current_timestamp - start_timestamp))
 
+if [[ ! "$break_multiple" =~ '^[1-9][0-9]*$' ]]; then
+  printf 'Invalid break_multiple: it must be a positive integer' &gt;&amp;2
+  exit 1
+fi
+
 rm "$timestamp_file"
 
-printf '%d' "$elapsed_seconds"</string>
+if (( elapsed_seconds &gt; 600 )); then
+  if [[ -n "$cal_name" ]]; then
+    printf '%s\n%s\n%s\n%s' \
+      "$elapsed_seconds" \
+      "$break_multiple" \
+      'caltrue' \
+      "$cal_name"
+  else
+    printf '%s\n%s' \
+      "$elapsed_seconds" \
+      "$break_multiple"
+  fi
+else
+  printf '%s' "$elapsed_seconds"
+fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -290,30 +286,9 @@ printf '%d' "$elapsed_seconds"</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</string>
+			<string>7B86BA60-43AB-4E09-93F0-B37E9C418316</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Session started</string>
-				<key>title</key>
-				<string>Flowmodoro</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>CF9AC1A7-7A9D-423A-8D37-933499FC2FC9</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -605,7 +580,7 @@ function formatDuration(totalSeconds) {
 				<key>inputmode</key>
 				<integer>0</integer>
 				<key>outputmode</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>shortcut</key>
 				<string>Flowmodoro</string>
 			</dict>
@@ -613,52 +588,6 @@ function formatDuration(totalSeconds) {
 			<string>alfred.workflow.automation.runshortcut</string>
 			<key>uid</key>
 			<string>BAA01715-707A-4191-B0A5-815800B68178</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>start</string>
-						<key>outputlabel</key>
-						<string>Start</string>
-						<key>uid</key>
-						<string>483AA098-3734-4EEC-91B6-99DFBBD0697E</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>break</string>
-						<key>outputlabel</key>
-						<string>Break</string>
-						<key>uid</key>
-						<string>A6B4AB41-A088-43FE-8BD9-B9BA3B9B6248</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -673,23 +602,17 @@ function formatDuration(totalSeconds) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Breaktime 🎉️</string>
-				<key>title</key>
-				<string>Flowmodoro</string>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>Flowmodoro.shortcut</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>0110632C-C5D1-444F-BE34-181BAB092D2A</string>
+			<string>389E3E38-AA4B-431E-A680-36C5E67BFDB9</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -766,16 +689,13 @@ function formatDuration(totalSeconds) {
 	<key>readme</key>
 	<string># Flowmodoro
 
-A flow-based productivity timer which counts up instead of down, but still gives you breaks with the Pomodoro ratio (work time divided by 5). Automatically toggles Do Not Disturb on/off, logs work blocks to a calendar of your choice, and has the ability to toggle and change MacOS Background Sounds.</string>
+A flow-based productivity timer which counts up instead of down, but still gives you breaks with the Pomodoro ratio (work time divided by 5). Automatically toggles Do Not Disturb on/off, logs work blocks to a calendar of your choice, and has the ability to toggle and change MacOS Background Sounds.
+
+## Setup
+
+On first execution, the workflow should prompt you to install the Apple Shortcut that drives the break timer and the calendar logging.</string>
 	<key>uidata</key>
 	<dict>
-		<key>0110632C-C5D1-444F-BE34-181BAB092D2A</key>
-		<dict>
-			<key>xpos</key>
-			<real>1295</real>
-			<key>ypos</key>
-			<real>450</real>
-		</dict>
 		<key>094BBA15-3009-4CE0-93BA-82755E427A64</key>
 		<dict>
 			<key>xpos</key>
@@ -813,6 +733,20 @@ A flow-based productivity timer which counts up instead of down, but still gives
 			<key>ypos</key>
 			<real>430</real>
 		</dict>
+		<key>389E3E38-AA4B-431E-A680-36C5E67BFDB9</key>
+		<dict>
+			<key>xpos</key>
+			<real>1445</real>
+			<key>ypos</key>
+			<real>575</real>
+		</dict>
+		<key>7B86BA60-43AB-4E09-93F0-B37E9C418316</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
 		<key>ADB0C78D-4EF7-4D15-89F1-C97E2E331FE6</key>
 		<dict>
 			<key>xpos</key>
@@ -826,27 +760,6 @@ A flow-based productivity timer which counts up instead of down, but still gives
 			<real>1025</real>
 			<key>ypos</key>
 			<real>400</real>
-		</dict>
-		<key>C9B52AEC-A2AB-4DB3-AB28-4E71E0C07022</key>
-		<dict>
-			<key>xpos</key>
-			<real>615</real>
-			<key>ypos</key>
-			<real>235</real>
-		</dict>
-		<key>CF9AC1A7-7A9D-423A-8D37-933499FC2FC9</key>
-		<dict>
-			<key>xpos</key>
-			<real>1295</real>
-			<key>ypos</key>
-			<real>325</real>
-		</dict>
-		<key>E257692F-B5DB-4945-98B5-4C5E93BCFB7F</key>
-		<dict>
-			<key>xpos</key>
-			<real>1175</real>
-			<key>ypos</key>
-			<real>420</real>
 		</dict>
 		<key>F178BD50-B11B-4CCC-B488-890D3177FA05</key>
 		<dict>
@@ -891,11 +804,53 @@ A flow-based productivity timer which counts up instead of down, but still gives
 			<key>description</key>
 			<string>The keyword you use to invoke Flowmodoro.</string>
 			<key>label</key>
-			<string>Invoke Flowmodoro</string>
+			<string>Flowmodoro keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
 			<string>flow</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The name of the calendar that you want to sync your work blocks to. Leave empty if you don't want calendar sync.</string>
+			<key>label</key>
+			<string>Calendar name</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>cal_name</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>5</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Your work time divided by this number is how many minutes of break you'll get. E.g. if this number is 5, for 25 minutes of work you'll get 5 minutes break.</string>
+			<key>label</key>
+			<string>Work/break ratio</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>break_multiple</string>
 		</dict>
 	</array>
 	<key>version</key>
