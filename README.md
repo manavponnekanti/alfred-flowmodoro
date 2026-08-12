@@ -7,6 +7,8 @@ Download and open the `.alfredworkflow` file from latest releases. When setting 
 
 If you don't want to sync your work blocks to Calendar, just leave that variable empty. If you put in the name of a calendar that doesn't exist, events will just save to your default calendar.
 
+When you first run the workflow, it will ask you to install the accompanying Apple Shortcut that the workflow relies on for changing your focus state, toggling Background Noises, and starting break timers.
+
 ## The work/break ratio
 
 My issue with Pomodoro timers has always been that when I get really into something, I don't want to stop at 25 minutes. For other tasks, I can't even muster that much. However, I like the proportion of working to time off: 25 minutes to 5 minutes break. This means 6 minutes off if you work for 30 minutes, and 12 minutes off if you work for an hour. This workflow will automatically start break timers of varying lengths depending on how long you've worked.
